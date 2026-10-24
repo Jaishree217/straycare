@@ -1,0 +1,72 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [postgis]
+}
+
+enum ProviderType {
+  VET
+  NGO
+  GOVERNMENT
+  VOLUNTEER
+}
+
+enum ReportStatus {
+  REPORTED
+  CLAIMED
+  RESCUED
+  CLOSED
+}
+
+model Provider {
+  id                  String       @id @default(cuid())
+  name                String       @unique
+  type                ProviderType
+  phones              String[]
+  address             String?
+  lat                 Float?
+  lng                 Float?
+  is24x7              Boolean?
+  hours               String?
+  willingToTakeStrays Boolean?
+  source              String?
+  notes               String?
+  // Hidden from users until you confirm each listing yourself.
+  verified            Boolean      @default(false)
+  lastVerifiedAt      DateTime?
+  createdAt           DateTime     @default(now())
+  alerts              Alert[]
+}
+
+model Report {
+  id            String       @id @default(cuid())
+  lat           Float
+  lng           Float
+  note          String?
+  photoUrl      String?
+  reporterPhone String?
+  status        ReportStatus @default(REPORTED)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  alerts        Alert[]
+}
+
+// One row per provider we alert for a report. Used for escalation rings.
+model Alert {
+  id         String    @id @default(cuid())
+  report     Report    @relation(fields: [reportId], references: [id])
+  reportId   String
+  provider   Provider  @relation(fields: [providerId], references: [id])
+  providerId String
+  ring       Int       @default(1)
+  channel    String
+  sentAt     DateTime  @default(now())
+  acceptedAt DateTime?
+
+  @@unique([reportId, providerId])
+}

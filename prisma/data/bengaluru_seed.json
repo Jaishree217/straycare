@@ -1,0 +1,181 @@
+{
+  "governmentHelplines": [
+    {
+      "name": "BBMP Animal Rescue Helpline",
+      "type": "GOVERNMENT",
+      "phones": [
+        "1533"
+      ],
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "is24x7": null,
+      "hours": null,
+      "source": "dogwithblog.in/bangalore-animal-helpline; deccanherald.com (BBMP toll-free helpline)"
+    }
+  ],
+  "ngos": [
+    {
+      "name": "CUPA Trauma & Rescue Centre (Hebbal)",
+      "type": "NGO",
+      "phones": [
+        "080 22947300",
+        "080 22947301"
+      ],
+      "address": "KVAFSU Veterinary College Campus, Bellary Road, Hebbal, Bengaluru 560024",
+      "lat": null,
+      "lng": null,
+      "is24x7": false,
+      "hours": "9:00 am to 5:00 pm",
+      "source": "cupabangalore.org (centre); dogwithblog.in/bangalore-animal-helpline (numbers, hours)"
+    },
+    {
+      "name": "People for Animals Bengaluru",
+      "type": "NGO",
+      "phones": [
+        "9980339880",
+        "9900025370"
+      ],
+      "address": "No. 67, Uttarahalli Main Road, next to BGS Global Hospital, Kengeri, Bengaluru 560060",
+      "lat": null,
+      "lng": null,
+      "is24x7": false,
+      "hours": "Helpline 9:00 am to 6:00 pm and 9:00 am to 10:00 pm (two numbers)",
+      "source": "peopleforanimalsindia.org/units/details/11"
+    }
+  ],
+  "vets24x7": [
+    {
+      "name": "Vetic Pet Clinic, Domlur",
+      "type": "VET",
+      "phones": [
+        "8929043121",
+        "09205187100"
+      ],
+      "address": "100 Feet Rd, near Forum Mall, Krishna Reddy Layout, Amarjyoti Layout, Domlur, Bengaluru",
+      "lat": null,
+      "lng": null,
+      "is24x7": true,
+      "hours": "Open 24 hours",
+      "willingToTakeStrays": null,
+      "source": "vetic.in/clinics/bengaluru/domlur-bengaluru"
+    },
+    {
+      "name": "Cessna Lifeline Veterinary Hospital, Domlur",
+      "type": "VET",
+      "phones": [
+        "7676365365"
+      ],
+      "address": "HBCS, 148, KGA Road, Amarjyothi Layout, Domlur, Bengaluru 560071",
+      "lat": null,
+      "lng": null,
+      "is24x7": true,
+      "hours": "Open 24 hours",
+      "willingToTakeStrays": null,
+      "source": "threebestrated.in; lbb.in (same phone); justdial.com (24 hrs)"
+    },
+    {
+      "name": "Bangalore Pet Hospital, Whitefield",
+      "type": "VET",
+      "phones": [
+        "7259782425",
+        "080 41132727"
+      ],
+      "address": "Varthur Road, Patel Narayanswamy Layout, Siddapura, Whitefield, Bengaluru 560066",
+      "lat": null,
+      "lng": null,
+      "is24x7": true,
+      "hours": "24/7 emergency care",
+      "willingToTakeStrays": null,
+      "source": "bangalorepethospital.com/contact-us (7259782425, 24/7 emergency); threebestrated.in (080 41132727)"
+    },
+    {
+      "name": "Jeeva Pet Hospital, JP Nagar",
+      "type": "VET",
+      "phones": [
+        "080 42687782"
+      ],
+      "address": "1360, 9th Cross Road, opposite Rajshekar Hospital, Jeewan Sathi Colony, 1st Phase, JP Nagar, Bengaluru 560078",
+      "lat": null,
+      "lng": null,
+      "is24x7": true,
+      "hours": "Open 24 hours (24/7 pet ambulance listed)",
+      "willingToTakeStrays": null,
+      "source": "threebestrated.in; wheree.com (open 24 hours)"
+    },
+    {
+      "name": "Pet Hospital Bangalore (Dr Doodley), Jayanagar",
+      "type": "VET",
+      "phones": [
+        "9902356133",
+        "9902356135"
+      ],
+      "address": "4th Block, Jayanagar, Bengaluru 560011",
+      "lat": null,
+      "lng": null,
+      "is24x7": true,
+      "hours": "24/7 emergency",
+      "willingToTakeStrays": null,
+      "source": "pethospitalbangalore.com"
+    },
+    {
+      "name": "SKS Veterinary Hospital, Bannerghatta Road",
+      "type": "VET",
+      "phones": [
+        "8680070015"
+      ],
+      "address": "Koli Farm Gate, 7, off Bannerghatta Road, Pillanganahalli, Bengaluru",
+      "lat": null,
+      "lng": null,
+      "is24x7": true,
+      "hours": "24/7 emergency care listed",
+      "willingToTakeStrays": null,
+      "source": "skspethospital.com/pillaganahalli"
+    }
+  ],
+  "vetsRegularHours": [
+    {
+      "name": "Pet Hospital Bangalore (Dr Doodley), Yelahanka",
+      "type": "VET",
+      "phones": [
+        "9902356133",
+        "9902356135"
+      ],
+      "address": "Yelahanka New Town, Bengaluru 560064",
+      "lat": null,
+      "lng": null,
+      "is24x7": false,
+      "hours": "Daily 9:00 am to 9:00 pm",
+      "willingToTakeStrays": null,
+      "source": "pethospitalbangalore.com"
+    },
+    {
+      "name": "SKS Veterinary Hospital, Indira Nagar",
+      "type": "VET",
+      "phones": [
+        "7449100023"
+      ],
+      "address": "17, Service Rd, Geethanjali Layout, HAL 3rd Stage, New Tippasandra, Bengaluru 560075",
+      "lat": null,
+      "lng": null,
+      "is24x7": false,
+      "hours": "Mon to Sun, 9:00 am to 9:00 pm",
+      "willingToTakeStrays": null,
+      "source": "skspethospital.com/indira-nagar"
+    },
+    {
+      "name": "Supertails+ Pet Clinic, Koramangala",
+      "type": "VET",
+      "phones": [
+        "08062137123"
+      ],
+      "address": "156, 1st Cross Road, 1st Block Koramangala, Bengaluru 560034",
+      "lat": null,
+      "lng": null,
+      "is24x7": false,
+      "hours": "Mon to Sun, 9:00 am to 10:00 pm",
+      "willingToTakeStrays": null,
+      "source": "supertails.com (clinic page)"
+    }
+  ]
+}
